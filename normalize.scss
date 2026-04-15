@@ -1,0 +1,13 @@
+/* Base normalize/reset overrides for cross-browser consistency. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fifth Floor Designs | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand" aria-label="Fifth Floor Designs home">
+          <img
+            class="brand-logo"
+            src="assets/capstonelogo.webp"
+            alt="Capstone logo"
+            width="100"
+            height="100"
+          />
+          <span class="brand-text">Capstone</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+            Menu
+          </button>
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#">Clients</a></li>
+            <li><a class="active" aria-current="page" href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro container">
+        <h1>About You</h1>
+        <p>We Help Show Your Best Stuff!</p>
+      </section>
+
+      <section class="hero">
+        <div class="hero-media">
+          <video
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="assets/herovideo.mp4"
+            aria-label="People working together in an office"
+          >
+            <source src="assets/herovideo.mp4" type="video/mp4" />
+          </video>
+          <div class="hero-overlay">
+            <h2>Your award winning website design and branding partner.</h2>
+          </div>
+          <span class="hero-line" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="services container" aria-labelledby="services-title">
+        <h2 id="services-title">How We Can Help</h2>
+        <div class="cards-grid">
+          <article class="service-card">
+            <h3>Design</h3>
+            <img src="assets/help-design.webp" alt="Design screens and interfaces" />
+            <ul>
+              <li>Website Design</li>
+              <li>UI/UX Design</li>
+              <li>Mobile App Design</li>
+              <li>Animation</li>
+              <li>Graphic &amp; Illustration</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Branding</h3>
+            <img src="assets/help-branding.webp" alt="People discussing brand strategy" />
+            <ul>
+              <li>Visual Identity</li>
+              <li>Brand Strategy</li>
+              <li>Logo Design</li>
+              <li>Iconography</li>
+              <li>Packaging Design</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Development</h3>
+            <img src="assets/help-development.webp" alt="Developers collaborating at desk" />
+            <ul>
+              <li>AWS Development</li>
+              <li>Digital Ocean Development</li>
+              <li>Custom PHP Development</li>
+              <li>Application Development</li>
+              <li>GitHub and Netlify</li>
+            </ul>
+          </article>
+
+          <article class="service-card">
+            <h3>Marketing</h3>
+            <img src="assets/help-marketing.webp" alt="Marketing and analytics concept image" />
+            <ul>
+              <li>Marketing</li>
+              <li>Digital Strategy</li>
+              <li>Marketing Strategy</li>
+              <li>SEO Strategy</li>
+              <li>Google Hacking</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="clients container" aria-labelledby="clients-title">
+        <h2 id="clients-title">Clients Who Trust Us</h2>
+        <ul class="logo-row" aria-label="Client logos">
+          <li><img src="assets/client-A.webp" alt="Apple" /></li>
+          <li><img src="assets/client-B.webp" alt="CISCO" /></li>
+          <li><img src="assets/client-C.webp" alt="Google" /></li>
+          <li><img src="assets/client-D.webp" alt="NBC" /></li>
+          <li><img src="assets/client-E.webp" alt="CHANEL" /></li>
+          <li><img src="assets/client-F.webp" alt="Microsoft" /></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <h2 class="phone"><a href="tel:+18005551357">1-800-555-1357</a></h2>
+        <div class="footer-columns">
+          <section class="location-card">
+            <h3>Fifth Floor Designs</h3>
+            <address>
+              <p>900 Spectrum West Dr</p>
+              <p>Suite 903</p>
+              <p>Irvine, CA 92611</p>
+            </address>
+          </section>
+          <section class="location-card">
+            <h3>Fifth Floor Designs</h3>
+            <address>
+              <p>29 East Infinity Loop</p>
+              <p>Suite 100</p>
+              <p>Albany, NY 42151</p>
+            </address>
+          </section>
+          <section class="location-card">
+            <h3>Fifth Floor Designs</h3>
+            <address>
+              <p>9865 Westminster St</p>
+              <p>Suite 4</p>
+              <p>Houston, TX 55445</p>
+            </address>
+          </section>
+        </div>
+        <p class="copyright">&copy; 2026 &bull; McKenna Wilson</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
