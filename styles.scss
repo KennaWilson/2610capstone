@@ -93,6 +93,20 @@ img {
   gap: 1.7rem;
 }
 
+.nav-close-item {
+  display: none;
+}
+
+.nav-close {
+  border: 0;
+  background: transparent;
+  color: var(--navy);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.2rem 0.35rem;
+}
+
 .nav-list a {
   text-decoration: none;
   color: var(--navy);
@@ -364,14 +378,40 @@ img {
     gap: 0.8rem;
   }
 
+  .site-nav {
+    width: 100%;
+  }
+
+  .site-nav.open {
+    padding-bottom: 0.35rem;
+  }
+
   .nav-list {
-    position: fixed;
-    top: 5.1rem;
-    left: 0;
-    right: 0;
+    position: static;
     width: 100%;
     border-radius: 0;
-    padding: 1rem;
+    padding: 0.7rem 0.95rem 0.9rem;
+    margin-top: 0.5rem;
+    box-shadow: none;
+    border: 1px solid #d1d6e4;
+    background: #f8f9fd;
+  }
+
+  .nav-close-item {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 0.1rem;
+  }
+
+  .nav-list li:not(.nav-close-item) {
+    width: 100%;
+  }
+
+  .nav-list a {
+    display: block;
+    width: 100%;
+    padding: 0.4rem 0.1rem;
   }
 
   .hero-overlay {
