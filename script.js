@@ -20,7 +20,7 @@ if (nav && toggle) {
 
   navLinks.forEach((link) => {
     link.addEventListener("click", () => {
-      if (window.innerWidth <= 760) {
+      if (window.innerWidth <= 1050) {
         closeNav();
       }
     });
